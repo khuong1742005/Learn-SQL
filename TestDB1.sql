@@ -106,7 +106,7 @@ IX. Select Statement
 X. Filter the data
 	1. Filter data
 		select * from (table_name) where (condition)
-		- in(values_input) : compare values in table and values_input
+		- in (values_input) : compare values in table and values_input
 	2. Like and Not Like and Similar to and ilike
 		- where (column_name) like/not like '(...)'
 			(...) : % (string) / _ (char)
@@ -139,4 +139,6 @@ XI. Group
 	3. Coalesce
 			coalesce(values1, values2,...) = null if all values is null, = values if meet first values diff null
 			- exp: select coalesce((column1_name), 'Unknown') as (column1_name) 
+	4. Self-join
+		select (list_column_name) from A a1 inner join A a2 on (addition)
 */
