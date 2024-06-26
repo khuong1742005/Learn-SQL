@@ -116,7 +116,7 @@ X. Filter the data
 		- where ((column_name) like (compare1) or (column_name) like (compare2)) : compare in many condition
 		- where (column_name) ilike '(...)' : ilike no distinction uppercase and lowercase letter
 	3. Between and not between
-		- select * from (table_name) where (column_name) between (lower_value) to (higher_value)
+		- select * from (table_name) where (column_name) between (lower_value) and (higher_value)
 	4. Limit
 		select * from (table_name) order by (column_name) limit (n)
 		- will return (n) rows
