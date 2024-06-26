@@ -136,9 +136,11 @@ XI. Group
 			- Remove values not equal from both tables.
 		-> Left join:
 			- You want to get all the data from the left table, along with matching data from the right table.
-	3. Coalesce
+	3. Using
+		using allows you to reference another table
+	4. Coalesce
 			coalesce(values1, values2,...) = null if all values is null, = values if meet first values diff null
 			- exp: select coalesce((column1_name), 'Unknown') as (column1_name) 
-	4. Self-join
+	5. Self-join
 		select (list_column_name) from A a1 inner join A a2 on (addition)
 */
