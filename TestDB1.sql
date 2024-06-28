@@ -165,7 +165,7 @@ X. Filter the data
 		- pass m rows
 	6. Is null & is not null
 		values is null / is not null
-XI. Join
+XI. Group
 	1. Inner join (select values from 2 table)
 		select A.(Column_name),..., (Column_name_of_B),... 
 		from A inner join B 
@@ -216,8 +216,8 @@ XII. Math (rename later)
 			ELSE (return_value) 
 			end 
 			as (name_alias) 
-				from (table_name)
-			- update (table_name) 
+			from (table_name)
+		- update (table_name) 
 			set (column_name) = case when....
 	2. Sum 
 		sum ((column))
