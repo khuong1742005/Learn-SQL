@@ -219,4 +219,7 @@ XII. Math (rename later)
 			select (column_name) from (table_name) 
 			group by (column_name) 
 			having (addition) )	
+	3. AVG
+		avg((column_name))
+
 */
