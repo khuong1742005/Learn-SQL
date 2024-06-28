@@ -216,16 +216,20 @@ XII. Math (rename later)
 			ELSE (return_value) 
 			end 
 			as (name_alias) 
-			from (table_name)
-		- update (table_name) 
+				from (table_name)
+			- update (table_name) 
 			set (column_name) = case when....
-	2. Max/Min
+	2. Sum 
+		sum ((column))
+		- sum pass null value
+		- if using sum in select, its will return null instead of 0 if select wont return any rows
+	3. Max/Min
 		select max/min((column_name)) as (name_alias) 
 		from (
 			select (column_name) from (table_name) 
 			group by (column_name) 
 			having (addition) )	
-	3. AVG
+	4. AVG
 		avg((column_name))
 
 */
