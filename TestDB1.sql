@@ -180,6 +180,12 @@ XI. Group
 			- Remove values not equal from both tables.
 		-> Left join:
 			- You want to get all the data from the left table, along with matching data from the right table.
+	3. Outer join
+		Combine data from two tables and returns all rows from both tables, including matching and non-matching rows from both sides.
+		- select (select_list)
+			from (table1_name) 
+			full outer join (table2_name)	
+			on (coddition)
 	3. Using
 		using allows you to reference another table
 	4. Self-join
