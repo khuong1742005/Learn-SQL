@@ -165,7 +165,7 @@ X. Filter the data
 		- pass m rows
 	6. Is null & is not null
 		values is null / is not null
-XI. Group
+XI. Join
 	1. Inner join (select values from 2 table)
 		select A.(Column_name),..., (Column_name_of_B),... 
 		from A inner join B 
