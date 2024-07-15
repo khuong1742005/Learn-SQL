@@ -239,5 +239,7 @@ XIII. Unknow name
 			select (column1_name),
 					dense_rank() over(order by (column2_name) desc) as (name_alias)
 			from (table_name)
+	2. DateDiff
+		Datediff (date1, date2) : return date1 - date2 
 
 */
