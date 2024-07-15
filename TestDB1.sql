@@ -231,5 +231,13 @@ XII. Math (rename later)
 			having (addition) )	
 	4. AVG
 		avg((column_name))
+XIII. Unknow name
+	1. Rank
+		- Row_number() : value equal not be equal rank
+			select (column_name) row_number() over(order by (column_name) desc) as (name_alias)
+		- Dense_Rank() : same val can same rank
+			select (column1_name),
+					dense_rank() over(order by (column2_name) desc) as (name_alias)
+			from (table_name)
 
 */
