@@ -241,5 +241,14 @@ XIII. Unknow name
 			from (table_name)
 	2. DateDiff
 		Datediff (date1, date2) : return date1 - date2 
-
+	3. Connect 2 column
+		select 
+			concat(column1, column2) as new_column
+			from table
+	4. Union all : take all row from 2 table (not unique val) -> merge
+		select ... 	
+		from (table1_name)
+		union all
+		select ...
+		from (table2_name)
 */
