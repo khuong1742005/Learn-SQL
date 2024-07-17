@@ -165,6 +165,8 @@ X. Filter the data
 		- pass m rows
 	6. Is null & is not null
 		values is null / is not null
+		- check if null
+			ifnull(value, 0) : if value is null then return 0
 XI. Join
 	1. Inner join (select values from 2 table)
 		select A.(Column_name),..., (Column_name_of_B),... 
