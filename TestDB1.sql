@@ -253,4 +253,9 @@ XIII. Unknow name
 		union all
 		select ...
 		from (table2_name)
+	5. If
+		if (column_name, return1, return2) = if (additon1) ? return1 : return2
+	6. Date_Format
+		DATE_FORMAT(date_column, '%d-%m-%Y')
+	7. Sum (column_name) Over (Order by (column_name))
 */
