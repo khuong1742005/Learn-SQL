@@ -257,5 +257,10 @@ XIII. Unknow name
 		if (column_name, return1, return2) = if (additon1) ? return1 : return2
 	6. Date_Format
 		DATE_FORMAT(date_column, '%d-%m-%Y')
-	7. Sum (column_name) Over (Order by (column_name))
+	7. Sum (column_name) Over (PARTITION BY (column_name) Order by (column_name))
+		- if you want to take the sum in the any addition of each attribute
+	8. Group_concat
+		- group_concat(distinct (column_name) order by ... asc separator '(*)') as (name_alias)
+		(*) : the character between 2 values
+		-> if you want to conbine many values in 1 column
 */
