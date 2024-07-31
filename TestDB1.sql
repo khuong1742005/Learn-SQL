@@ -16,9 +16,9 @@ II. Output:
 III. Creat new table
 	1. New table clearly
 		create table (table_name)
-		{
+		(
 			/code/
-		}
+		)
 	2. New table from another table
 		create table (table_name) 
 		as select (.) 
