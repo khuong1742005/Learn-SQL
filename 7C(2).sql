@@ -57,7 +57,10 @@ insert into
 	cungung   
 values	(123, 11, 3),
 		(456, 22, 4),
-		(789, 33, 5)
+		(789, 33, 5),
+		(123, 22, 6),
+		(456, 11, 7),
+		(789, 22, 8),
 -- show all data from table
 select * from congty
 select * from sanpham order by masanpham
